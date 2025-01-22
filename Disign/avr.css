@@ -1,0 +1,307 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar: Gold Rate */
+.top-bar {
+    background-color: #f5e3b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Header Section: Logo and Search Bar */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #800000;
+    color: white;
+    padding: 10px 20px;
+}
+.top-bar .logo img {
+    height: 60px;
+    width: auto;
+}
+
+.header .search-bar {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.top-bar .search-bar input {
+    flex: 1;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.top-bar .search-bar button {
+    padding: 8px 10px;
+    margin-left: 10px;
+    background-color: white;
+    color: #800000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.banner {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    /* padding: 50px 20px; */
+    position: relative;
+  }
+  
+
+  
+  .banner .model img {
+    max-width: 100%;
+    /* border-radius: 10px; */
+  }
+/* Navigation Menu */
+.menu {
+    background-color: #800000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu ul li {
+    display: inline;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+  
+  .products {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: maroon;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .product-item {
+    text-align: center;
+  }
+  
+  .product-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .product-item p {
+    margin-top: 10px;
+    font-weight: bold;
+    
+  }
+  
+  
+  .trending-products {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+
+    /* height: 100px; */
+    /* background-color: #ddd; */
+  }
+  .trending-products button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(184, 11, 46);
+    border: none;
+  }
+  
+  .trending-item img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  footer {
+    background-color: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+
+
+.title {
+    font-size: 2rem;
+    color: #800000;
+    margin-bottom: 20px;
+}
+
+.assurance {
+    margin: 20px 0;
+}
+
+.assurance-image {
+    width: 150px;
+    height: 150px;
+}
+
+.assurance p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.feature {
+    /* background-color: #fff5f5; */
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    text-align: center;
+}
+
+.feature-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.feature h2 {
+    font-size: 1.2rem;
+    color: #800000;
+}
+.connect-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.connect-section h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.connect-section p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.connect-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.option {
+    background: #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    background-color:   #f1dbdb;
+    margin-bottom: 50px;
+}
+
+.option:hover {
+    transform: scale(1.1);
+    background-color: maroon;
+    /* border-radius: 50%; */
+    border: 3px solid yellow;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.icon img {
+    width: 100%;
+    height: auto;
+}
+
+.whatsapp {
+    background: #25d366;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.appointment {
+    background: #ffb74d;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.video-call {
+    background: #2196f3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.chat {
+    background: #ff5722;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+p strong {
+    display: block;
+    color: #000;
+}
